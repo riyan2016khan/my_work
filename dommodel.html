@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <!-- BY formNAME -->
+    <!-- <form name="form1">
+        <input type="text" name="name" placeholder="enter your name">
+        <input type="button" onclick="printvalue()" value="print name">
+
+    
+    </form>
+    <script>
+        function printvalue()
+        {
+            var name=document.form1.name.value;
+            alert("Welcome"+" "+name);
+        }
+    </script> -->
+ 
+    <!-- BY ID -->
+    <!-- <form>
+        <input type="text" name="number" id="number">
+        <input type="button" onclick="getcube()" value="cube">
+    </form>
+
+    <script>
+        function getcube()
+        {
+            var number=document.getElementById("number").value;
+            alert(number*number*number);
+        }
+    </script> -->
+
+<!-- BY NAME -->
+    <!-- <form>
+      female:  <input type="radio" name="gender" >
+        Male:<input type="radio" name="gender" >
+        <input type="button" onclick="total()" value="total genders">
+    </form>
+
+    <script>
+        function total()
+        {
+            var genders=document.getElementsByName("gender");
+            alert("Total genders are"+" "+genders.length);
+        }
+    </script> -->
+
+    <!-- BY TAGNAME -->
+    <!-- <h1>Welcome</h1>
+    <h1>form</h1>
+    <p>A</p>
+    <p>B</p>
+    <p>C</p>
+    <p>D</p>
+
+    <script>
+        function para()
+        {
+            var totalpar=document.getElementsByTagName("p");
+            alert("total paras are"+" "+totalpar.length);
+            
+        }
+        function heading(){
+        var totalh=document.getElementsByTagName("h1");
+        alert("total h1 are"+" "+totalh.length);
+        }
+
+
+
+
+
+    </script>
+    <input type="button" onclick="para()" value="total p">
+    <input type="button" onclick="heading()" value="total h"> -->
+
+    <!-- BY CLASSNAME -->
+    
+        <!-- <p class="p">PURPLE</p>
+        <p  class="r">RED</p>
+        <p class="b">BLUE</p>
+        <p >GREEN</p>
+<p id="RED"></p>
+
+    <script>
+         var c=document.querySelectorAll("p.b")
+            document.getElementById("RED").innerHTML="index of paragraph(o) is"+c[0].innerHTML; -->
+
+            
+            
+        
+    <!-- </script> -->
+
+    <!-- <p id="h">HI</p>
+    <h1 id="w">HELLO</h1>
+    <h2 id="g"></h2>
+    <div id="b">PURPLE</div>
+
+    <script>
+        var x=document.getElementById("w").innerHTML;
+        console.log(x);
+        document.write(x);
+        alert(x);
+        document.getElementById("w").innerHTML="x is"+x;
+        document.getElementById("w").style.color="blue";
+
+    </script> -->
+
+
+<!-- <p>HELLO</p>
+<p>here</p>
+<p>I'M GROOT</p>
+<p>Welcome</p>
+<h1>lets</h1>
+<h2>begin</h2>
+<h1>Mysore</h1>
+<span>Bangalore</span>
+<span>Lalbagh</span>
+
+<script>
+var y=document.getElementsByTagName("p")
+console.log(y[0].innerHTML);
+alert(y[2].innerHTML);
+
+function para(){
+    var totpar=document.getElementsByTagName("p");
+    alert("total p tags are"+" "+totpar.length);
+}
+
+function head(){
+    var tohead=document.getElementsByTagName("h1");
+    alert("total h tags are"+" "+tohead.length);
+}
+function span(){
+    var totspan=document.getElementsByTagName("span");
+    alert("total span tags are"+" "+totspan.length);
+} 
+
+
+
+
+
+<!-- </script>
+<button onclick="para()">"total p tags"</button>
+<button onclick="head()">"total h1 tags"</button>
+<button onclick="span()">"total span tags"</button> -->
+
+
+
+
+<!-- <p class="h">HELLO</p>
+<p>here</p>
+<p class="i">I'M GROOT</p>
+<p>Welcome</p>
+<h1 class="j">lets</h1>
+<h2>begin</h2>
+<h1>Mysore</h1>
+<span class="k">Bangalore</span>
+<span>Lalbagh</span>
+
+<script>
+    var y= document.getElementsByClassName("i");
+    console.log(y[0].innerHTML);
+</script> -->
+
+
+
+
+<label>Enter Value 1</label>
+<input type="text" id="value1" name="val1">
+<label>Enter value2</label>
+<input type="text" id="value2" name="val2">
+<p id="result"></p>
+<button onclick="total()">Click to Add</button>
+
+<script>
+    function total()
+    {
+        var a=Number(document.getElementById("value1")).value;
+        var a=prompt(a);
+        document.writeln("value1="+a);
+        var b=Number(document.getElementById("value2")).value;
+        var b=prompt(b);
+        document.writeln("value2="+b);
+        var c=Number(document.getElementById("result"));
+        var c=a+b;
+        document.getElementById("result").innerHTML="addition is:"+c;
+        document.getElementById("result").style.color="blue";
+    }
+    function add()
+    {
+        var c=Number(document.getElementById("result"));
+        var c=a+b;
+        document.getElementById("result").innerHTML="addition is:"+c;
+        document.getElementById("result").style.color="blue";
+
+    }
+</script>
+
+
+
+
+
+
+
+    
+      
+
+
+
+    
+
+
+
+    
+
+
+
+    
+</body>
+</html>

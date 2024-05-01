@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    //     class student{
+    //         constructor(){
+    //         var name;
+    //         var marks;
+    //         }
+        
+        
+    //     setName(name)
+    //     {this.name=name;}
+    //     getName()
+    //     {
+    //         return this.name;
+    //     }
+    //     setMarks(marks)
+    //     {this.marks=marks;}
+    //     getMarks()
+    //     {return this.marks;}
+    // }
+    //     var a=new student()
+    //     a.setName("ARUN");
+    //     a.setMarks(45);
+    //     console.log(a.getName()+" "+a.getMarks());
+
+    //     function student(name,marks){
+    //         var s_name=name;
+    //         var s_marks=marks;
+        
+    //     object.defineproperty(this,"name",{
+    //         set:function()
+    //         {
+    //             this.s_name=s_name;
+    //         }
+    //         // get:function()
+    //         // {
+    //         //     return s_name;
+    //         // }
+    //     })
+    //     object.defineproperty(this,"marks",{
+    //         set:function()
+    //         {
+    //             this.s_marks=s_marks;
+    //         }
+    //         get:function()
+    //         {
+    //             return s_marks;
+    //         }
+    //     })
+    // }
+    //     var a=new student("Arun",80);
+    //     document.writeln(a.name+" "+a.marks);
+
+    // class student{
+    //         constructor(){
+    //         var name;
+    //         var marks;
+    //         }
+        
+        
+    //     setName(name)
+    //     {this.name=name;}
+    //     getName()
+    //     {
+    //         return this.name;
+    //     }
+    //     setMarks(marks)
+    //     {this.marks=marks;
+    //     if (marks<0||marks>100){
+    //         alert("invalid marks")
+    //     }}
+    //     getMarks()
+    //     {return this.marks;}
+    // }
+    //     var a=new student()
+    //     a.setName("ARUN");
+    //     a.setMarks(125);
+    //     console.log(a.getName()+" "+a.getMarks());
+
+//INHERITANCE
+        // class moment extends Date
+        // {
+        //     constructor(){
+        //         super();
+        //     }
+        // }
+        // var m= new moment()
+        // document.writeln(m.getDate()+" "+m.getMonth()+" "+m.getFullYear());
+
+        // class moment extends Date
+        // {
+        //     constructor(year){
+        //         super(year);
+        //     }
+        // }
+        // var m= new moment("august 15,1947,20:22:45")
+        // document.writeln(m.getFullYear());
+
+        class A{
+            display(){
+        
+        document.writeln("Hi");
+            }}
+            class B extends A{
+                display(){
+                    document.writeln("hello");
+                }
+            }
+        
+        
+var a=[new A(),new B()]
+a.forEach(function(i) {
+    i.display();
+}
+);
+    
+
+
+
+        </script>
+
+<!-- <span id="time"></span>
+<script>
+        var today=new Date();
+        var h=today.getHours();
+        var m= today.getMinutes();
+        var s=today.getSeconds();
+        document.getElementById("time").innerHTML=h+":"+m+":"+s;
+    </script> -->
+</head>
+<body>
+    
+</body>
+</html>

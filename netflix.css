@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('netflix background.jpg');
+    background-size: cover;
+
+}
+
+.logo img{
+    width:150px;
+
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px;
+}
+#button1{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    width:90px;
+}
+#button2{
+    background-color: red;
+    margin:40px;
+    border: none;
+    padding: 10px;
+    width:90px;
+    border-radius: 2px;
+}
+.content{
+    color:white;
+    text-align: center;
+}
+.form{
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+}
+input{
+    height: 40px;
+    width: 300px;
+    margin: 0px;
+}
+button{
+    height:50px;
+    width:150px;
+    background-color: red;
+    margin: 0px;
+    color: white;
+}

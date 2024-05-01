@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //OBJECT BY LITERAL
+//         emp={
+//     id:101,
+//     name:"ABCD",
+//     salary:45000
+// };
+// console.log(emp.id);
+// console.log(emp.name);
+// console.log(emp.salary);
+
+//OBJECT INSTANCE
+// var emp=new Object();
+// emp.id=101;
+// emp.name="EFGH";
+// emp.salary=47000;
+// document.writeln("<br>"+emp.id+""+emp.name+""+emp.salary);
+// console.log(emp);
+
+//OBJECT CONSTRUCTOR
+// function emp(id,name,salary){
+//     this.id=id;
+//     this.name=name;
+//     this.salary=salary;
+// }
+// e=new emp(104,"Harry",47000);
+// document.writeln(e.id+""+e.name+""+e.salary);
+
+//DEFINING A METHOD IN OBJECT
+// let user={
+//     name:"Riyan",
+//     login:function(){
+//         console.log("LOGGED IN");
+//     },
+
+// };
+// user.login();
+
+//DEFINING METHOD AS VARIABLE
+// function emp1(id,name,salary){
+//     this.id=id;
+//     this.name=name;
+//     this.salary=salary;
+//     this.changeSalary=changeSalary;
+//     function changeSalary(othersalary){
+//         this.salary=othersalary;
+//     }
+// }
+// e1=new emp1(104,"GHIJ",60000);
+// document.writeln(emp1.id+""+emp1.name+""+emp1.salary);
+// e1.changeSalary(56000);
+// document.writeln(emp1.id+""+emp1.name+""+emp1.salary);
+
+//CAR OBJECT
+// function car(name,model,colour,price){
+//     this.name=name;
+//     this.model=model;
+//     this.colour=colour;
+//     this.price=price;
+//     this.changeprice=changeprice;
+//     function changeprice(newprice){
+//         this.changeprice=newprice;
+//     }
+// }
+// p1=new car("santro",2004,"blue",510285);
+// document.writeln(p1.name+""+p1.model+""+p1.colour+""+p1.price);
+// p1.changeprice(450678);
+// document.writeln(p1.name+""+p1.model+""+p1.colour+""+p1.changeprice);
+
+// function pricechange(newprice){
+//     price=newprice;
+// }
+// console.log(car.name);
+// console.log(car.model);
+// console.log(car.colour);
+// console.log(car.price);
+
+// student={id:304,
+//          name:"Arun",
+//          dob:2004,
+//         usn:"k7892",
+//          }
+// console.log(student.id+student.name+student.dob+student.usn);
+
+//          var student=new Object();
+//          {
+//             student.marks=25;
+//             student.gen="M";
+//          }
+// console.log(student.marks+student.gen);
+
+        //  function student(id,name,dob,usn,marks,gen){
+        //     this.id=id;
+        //     this.name=name;
+        //     this.dob=dob;
+        //     this.usn=usn;
+        //     this.marks=marks;
+        //     this.gen=gen;
+        //     this.changemarks=changemarks;
+        //     function changemarks(newmarks){
+        //         this.changemarks=newmarks;
+        //     }
+        //  }
+        //  s=new student(304,"Arun",2004,"k7892",25,"M");
+        //  document.writeln(s.id+" "+s.name+""+s.dob+""+s.usn+""+s.marks+""+s.gen);
+        //  s.changemarks(35);
+        //  document.writeln(s.id+""+s.name+""+s.dob+""+s.usn+""+s.changemarks+""+s.gen);
+
+//ARRAY BY LITERAL
+        const cars=["Santro","BMW","Fortuner"]
+        for(i=0;i<=cars.length;i++){
+                
+                console.log(cars[i]);
+        }
+        cars[3]="Scorpio";
+        console.log(cars[3]);
+
+//ARRAY DIRECTLY USING NEW KEYWORD
+        var i;
+        var emp=new Array();
+        emp[0]="Arun";
+        emp[1]="John";
+        emp[2]="Varun";
+for(i=0;i<emp.length;i++){
+        document.write(emp[i]+"<br>");
+}
+
+//ARRAY USING CONSTRUCTOR NEW KEYWORD
+var stu=new Array("Ashish","Mahesh","Geeta");
+for(i=0;i<stu.length;i++){
+        console.log(stu[i]);
+}
+
+
+//ARRAY BY USING MULTIPLE OBJECTS
+const student=[
+        {id:9807,
+         name:"John",
+         usn:"ABC456",
+         gen:"M",       
+
+        },
+        {id:7868,
+         name:"Aamir",
+         usn:"DEF678",
+         gen:"M",
+
+        },
+        {id:4576,
+         name:"Asha",
+         usn:"GHI432",
+         gen:"F",
+        },
+        {id:3287,
+         name:"Saif",
+         usn:"JKL584",
+         gen:"M",
+        }
+]
+console.log(student[0]);
+console.log(student[1]);
+console.log(student[2]);
+console.log(student[3]);
+
+
+
+
+</script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+v p{
+    color: brown;
+    border-style: groove;
+    padding: 20px;
+    
+}
+
+h1{
+    color: greenyellow;/*This is a single line comment*/
+    background-color: blueviolet;
+    padding-inline-start: 20px;
+    border-style: double;
+
+    text-align: center;/*This is a multiline comment*/
+}
+
+.p1{
+    border-style: ridge;
+    border-width: medium;
+    border-color: brown;
+    border-bottom-left-radius: 30px;
+}
+
+.p2{
+    border-style: dotted;
+    border-width: medium;
+    border-color:  rgb(113, 0, 128);
+    border-top-right-radius: 10px;
+}
+.p3{
+    border-style: outset;
+    border-width: 15px;
+    border-color: #98bf98;
+    border-radius: 20px 30px 40px;
+}
+ol{
+    
+    border-width: 15px;
+    border-radius: 20px 30px 40px 50px;
+    border-style: inset;
+    border-color: blueviolet;
+}

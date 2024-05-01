@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1 align="center"><b>INPUT NUMBERS TO ADD OR SUBTRACT</b></h1>
+    <style>
+        .form{
+    
+    margin: 100px;
+    justify-content: center;
+    padding: 4px;
+    border: 1px solid black;
+    color: green;
+    font-size: 30px;
+    
+        }
+
+        .b1:hover{
+        background-color: aqua;
+        border-radius: 10px;
+        box-shadow: 0 8px 12px 0 violet ,0 6px 12px 0 rosybrown;
+        font-size: 30px; 
+    }
+
+    .b2:hover{
+        background-color: lightcoral;
+        border-radius: 10px;
+        box-shadow: 0 8px 12px 0 paleturquoise ,0 6px 12px 0 blueviolet;
+        font-size: 30px;
+
+    }
+
+    </style>
+</head>
+<body>
+    <div class="form">
+        <body bgcolor="gold">
+   
+    <script>
+        var numOne,numTwo,sum,sub;
+     
+    function add()
+    {
+        
+  numOne = Number(document.getElementById("first").value);
+  numTwo = Number(document.getElementById("second").value);
+  sum = numOne + numTwo;
+  document.getElementById("answer").value = sum;
+}
+
+function subtract()
+{
+  numOne = Number(document.getElementById("first").value);
+  numTwo = Number(document.getElementById("second").value);
+  sub = numOne - numTwo;
+  document.getElementById("ans").value = sub;
+}
+
+
+    
+</script>
+
+<p>Enter the First Number: <input id="first"></p>
+<p>Enter the Second Number: <input id="second"></p>
+<button class="b1" onclick="add()">Add</button>
+<p>Sum = <input id="answer"></p>
+<button class="b2" onclick="subtract()">Subtract</button>
+<p>Sub = <input id="ans"></p>
+
+
+    
+</body>
+</html>
